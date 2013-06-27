@@ -1,0 +1,194 @@
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+
+
+@import 'bootstrap';
+
+
+    /* Large desktop */
+@media (min-width: 1200px) {
+
+.navbar {
+	  margin-top: 20px;
+	
+
+  }
+  
+  .grow {
+	  margin-top: 100px;
+	 
+  }
+  
+  .nvr {
+	  margin-left: -70px; 
+	  width: 200px;
+	  border: 1px solid #D4D4D4;
+	  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  }
+  
+  
+  }
+
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 967px) and (max-width: 1199px) { 
+		
+		
+	.navbar {
+	  margin-top: 20px;
+
+  }	
+
+ .grow {
+	  margin-top: 100px;
+	 
+  }
+
+.nvr {
+	  margin-left: -85px; 
+	  width: 186px;
+	  border: 1px solid #D4D4D4;
+	  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+  }
+
+  }
+
+
+/* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 966px) { 
+		
+	.navbar {
+	  margin-top: 20px;
+  }	
+
+  }  
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { 
+	
+	.navbar {
+	  margin-top: 20px;
+  }
+
+  }
+     
+    /* Landscape phones and down */
+    @media (max-width: 480px) { 
+	
+	.navbar {
+	  margin-top: 20px;
+  }
+  
+  }
+
+
+/*************************Home Page*************************/
+
+
+
+.navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 0px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+.carousel-caption {
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+    }
+
+.carousel-caption a {
+		margin-top: 10px;
+		margin-left: 30px;
+    }
+
+.carousel-caption h1 {
+		color: #ffffff;
+    }
+	
+.carousel-control {
+		margin-top: 20px;
+}
+
+.carousel-indicators {
+		margin-top: 90px;
+}
+
+    /* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+      text-align: center;
+    }
+    
+.marketing h2 {
+      font-weight: normal;
+    }
+    
+.marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+/***************************Calendar******************
+
+.calendar td { 
+	
+	height: 100px; 
+	width: 14.28%; 
+	
+	}*/
+
+
+/*************************Content************************/
+
+
+.container h1 {	
+		color: #006CCC;
+		font-family: Michroma;
+}
+
+
+.container h2 {
+		font-size: 21px;
+		text-align: left;
+		font-family: Michroma;
+}
+
+
+.container h3 {
+		font-size: 20px;
+		color: #006CCC;
+		font-family: Michroma;
+}
+
+.container p {
+	font-size:18px
+	}
+
+/*************************Buyers Guides*******************/
+
+
+
+/*************************Footer*************************/
+
+.footer {
+    background-color: #F5F5F5;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 70px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+/******************Social Media************************/
+
+a.sm-facebook {display: inline-block; width: 22px; height: 25px; margin: 0px 6px 0px 0px; float: left;}
+a.sm-twitter {display: inline-block; width: 22px; height: 25px; margin: 0px 6px 0px 0px; float: left;}
+a.sm-linked {display: inline-block; width: 22px; height: 25px; float: left;}
+
+
+
+@import 'bootstrap-responsive';

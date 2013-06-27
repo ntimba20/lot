@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 gem 'jquery-rails'
+gem 'simple_calendar', '~> 0.1.9'
 
 
 group :assets do
